@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Just replace all \"OnTimeLineChanged(Start, End);\" code for call RaiseOnTimeLineChanged\n \nprivate void RaiseOnTimeLineChanged(DateTime start, DateTime end)\n{\n  if(OnTimeLineChanged !=null)\n  {\n    OnTimeLineChanged(start, end);\n  }\n}",
+    "LastUpdatedDate": "2015-08-03T06:50:50.657-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "wpfgantt",
+    "ReportedDate": "2011-05-23T10:37:25.827-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "NullPointerException when there is no OnTimeLineChanged event subscribers",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8651
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello, \r\n\r\nYes, there is no longer any bugs.\nBut the Gantt does not resize ... The function never works.\nCould you post more details, please.\r\n\r\nRegards.",
+      "PostedDate": "2015-08-03T06:50:50.657-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

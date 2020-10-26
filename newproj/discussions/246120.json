@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "566510",
+    "ThreadId": "246120",
+    "Html": "\r\n<p>Hi there,</p>\r\n<p>I just downloaded the code and found out that the tester project and the Database layer are missing from the file set. Could you please add a new release set?</p>\r\n<p>Thanks,</p>\r\n<p>/David</p>\r\n",
+    "PostedDate": "2011-02-15T07:39:47.28-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1207646",
+    "ThreadId": "246120",
+    "Html": "he didn't attach his codes. but you can create a new wpf project , reference his dll, and try<br />\n",
+    "PostedDate": "2014-02-12T19:22:23.063-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

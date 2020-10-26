@@ -1,0 +1,6 @@
+C:\Users\John\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csprojAssemblyReference.cache
+C:\Users\John\source\repos\WpfApp3\WpfApp3\obj\Debug\MainWindow.g.cs
+C:\Users\John\source\repos\WpfApp3\WpfApp3\obj\Debug\App.g.cs
+C:\Users\John\source\repos\WpfApp3\WpfApp3\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\John\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.cache
+C:\Users\John\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.lref

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GanttWPF", "GanttWPF.csproj", "{11AEEA68-DED2-4594-BC7E-E743E8A247D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseLayer", "..\DatabaseLayer\DatabaseLayer.csproj", "{D6583D2A-5A2A-4F6E-9BDD-32822C6E5D1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GanttWPFTester", "GanttWPFTester\GanttWPFTester.csproj", "{6B9EBA5C-017F-4B5C-98AD-DE7ED9ED31E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11AEEA68-DED2-4594-BC7E-E743E8A247D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11AEEA68-DED2-4594-BC7E-E743E8A247D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11AEEA68-DED2-4594-BC7E-E743E8A247D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11AEEA68-DED2-4594-BC7E-E743E8A247D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6583D2A-5A2A-4F6E-9BDD-32822C6E5D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6583D2A-5A2A-4F6E-9BDD-32822C6E5D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6583D2A-5A2A-4F6E-9BDD-32822C6E5D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6583D2A-5A2A-4F6E-9BDD-32822C6E5D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9EBA5C-017F-4B5C-98AD-DE7ED9ED31E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9EBA5C-017F-4B5C-98AD-DE7ED9ED31E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9EBA5C-017F-4B5C-98AD-DE7ED9ED31E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9EBA5C-017F-4B5C-98AD-DE7ED9ED31E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

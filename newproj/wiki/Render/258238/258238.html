@@ -1,0 +1,46 @@
+<div class="wikidoc"><h2>How to add Gantt userControl on your page</h2><ul><li>Put reference to gantt library and add ganttUC usercontrol on your page</li></ul>
+
+<h2>Structure of source for ganttUC</h2><ul><li>GanttUC.Groups : List&lt;<b>GanttGroup</b>&gt;
+<ul><li>GanttGroup.Rows : List&lt;<b>GanttRow</b>&gt;
+<ul><li> GanttRow.Items : List&lt;<b>GanttItem</b>&gt;</li></ul></li></ul></li></ul>
+  <br />
+<h2>How to add items in ganttUC UserControl*</h2><ul><li>Create collection of <b>GanttGroup</b>, where every group has any <b>Caption</b> and subcollection of <b>Rows</b> (GanttRow). Into every Row insert a collection of <b>Items</b> (derived from GanttItem)</li></ul>
+ 
+<h2>Example</h2><pre>
+gantt.Groups.Clear();
+gantt.Start = DateTime.Now.AddHours(-2);
+gantt.End = DateTime.Now;
+gantt.Groups.AddRange(new List&lt;GanttGroup&gt;() { 
+    new GanttGroup
+    {
+        Caption = &quot;MyGroup&quot;,
+        Rows = new List&lt;GanttRow&gt;() { 
+            new GanttRow { 
+                Caption = &quot;Name 1&quot;,
+                Items = new List&lt;GanttItem&gt;() 
+                    { 
+                      new GanttItem {Caption = &quot;Item1&quot;, Start = DateTime.Now.AddHours(-1), End=DateTime.Now.AddMinutes(-20) }
+                    } } ,
+            new GanttRow { 
+                Caption = &quot;Name 2&quot;,
+                Items = new List&lt;GanttItem&gt;() 
+                    { 
+                      new GanttItem {Caption = &quot;Item2&quot;, Start = DateTime.Now.AddMinutes(-130), End=DateTime.Now.AddMinutes(-35) } 
+                    } } } 
+    }
+    ,
+    new GanttGroup
+    {
+        Caption = &quot;MyGroup 2&quot;,
+        Rows = new List&lt;GanttRow&gt;() { 
+            new GanttRow { 
+                Caption = &quot;Name 3&quot;,
+                Items = new List&lt;GanttItem&gt;() 
+                    { 
+                     new GanttItem {Caption = &quot;Item3&quot;, Start = DateTime.Now.AddMinutes(-70), End=DateTime.Now.AddMinutes(-10) } ,
+                     new GanttItem {Caption = &quot;Item4&quot;, Start = DateTime.Now.AddMinutes(-110), End=DateTime.Now.AddMinutes(-97) } } 
+                    }
+            } } }
+});
+gantt.Refresh();
+</pre></div><div class="ClearBoth"></div>
